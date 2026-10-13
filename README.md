@@ -9,7 +9,7 @@ A full OSINT reconnaissance framework covering username, email, IP, domain, and 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/Dreadonyx/PhantomEye.git
+git clone https://github.com/H3M4N1H/PhantomEye.git
 cd PhantomEye
 pip install -r requirements.txt
 ```
@@ -20,17 +20,17 @@ pip install -r requirements.txt
 
 ```bash
 # Single target
-python main.py -u "dreadonyx"
+python main.py -u "h3m4n1h"
 python main.py -e "target@gmail.com"
 python main.py -i "8.8.8.8"
 python main.py -d "example.com"
 python main.py -p "+91 9876543210"
 
 # Multiple at once
-python main.py -u "dreadonyx" -d "github.com" -i "8.8.8.8"
+python main.py -u "h3m4n1h" -d "github.com" -i "8.8.8.8"
 
 # Save HTML report
-python main.py -u "dreadonyx" -d "github.com" --report
+python main.py -u "h3m4n1h" -d "github.com" --report
 
 # Custom output path
 python main.py -u "target" --report --output reports/target_recon
@@ -132,4 +132,4 @@ All free APIs used — no API keys required for core functionality.
 
 ## 👤 Author
 
-**Dreadonyx** — [github.com/Dreadonyx](https://github.com/Dreadonyx)
+**H3M4N1H** — [github.com/H3M4N1H](https://github.com/H3M4N1H)

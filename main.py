@@ -16,7 +16,7 @@ def banner():
  |_|   |_| |_|\__,_|\__\___/|_| |_| |_|_|   \__, |\___|
                                              |___/      
   👁  PhantomEye — Full OSINT Recon Framework
-     by Dreadonyx | For authorized use only
+     by H3M4N1H | For authorized use only
     """)
 
 
@@ -53,7 +53,7 @@ def main():
     # Check at least one target
     if not any([args.username, args.email, args.ip, args.domain, args.phone]):
         logger.error("No target specified. Use -u, -e, -i, -d, or -p")
-        logger.info("Example: python main.py -u dreadonyx -d github.com")
+        logger.info("Example: python main.py -u h3m4n1h -d github.com")
         sys.exit(1)
 
     # Determine target summary for report name
